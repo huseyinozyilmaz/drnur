@@ -1,0 +1,19 @@
+<template>
+  <div class="row white">
+    <h1 class="centered">
+      Registration Forms
+    </h1>
+    <hr><br>
+    <div class="col-lg-offset-2 col-lg-8">
+      <p>You can download new patient registration forms and questionnaires by clicking the buttons below.</p>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-4 centered">
+          <a class="btn btn-primary" role="button" href="/assets/forms/ChildrenPatientRegistrationForm.docx" download="ChildrenPatientRegistrationForm.docx">Children Patients</a>
+        </div>
+        <div class="col-md-4 centered">
+          <a class="btn btn-success" role="button" href="/assets/forms/AdultPatientRegistrationForm.docx" download="AdultPatientRegistrationForm.docx">Adult Patients</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
