@@ -1,0 +1,24 @@
+<template>
+  <div id="navbar-main">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Toggle Navigation Menu">
+            <span class="ion-navicon" />
+          </button>
+          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="ion-navicon" style="font-size:28px; color:#3498db;" /></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/#home" title="Home Page" class="smoothScroll">Home</a></li>
+            <li><a href="/#about" title="About Dr Nur Ozyilmaz" data-toggle="collapse" data-target=".nav-collapse" class="smoothScroll"> About</a></li>
+            <li><a href="/#experience" class="smoothScroll" title="Dr Nur Ozyilmaz's Experience"> Experience</a></li>
+            <li><a href="/#nutrition" title="Nutrition" class="smoothScroll"> Nutrition</a></li>
+            <li><a href="/#forms" title="Registration Forms" class="smoothScroll"> Forms</a></li>
+            <li><a href="/#contact" title="Contact Details" class="smoothScroll"> Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+</template>
