@@ -1,10 +1,9 @@
 <template>
   <div data-spy="scroll" data-offset="0" data-target="#navbar-main">
-    <!-- {% include header.html %} -->
     <site-nav fulltitle="site.fulltitle" />
     <Nuxt />
-    <!-- {% include footer.html %}
-    {% include scripts.html %} -->
+    <!-- {% include scripts.html %} -->
+    <site-footer />
   </div>
 </template>
 

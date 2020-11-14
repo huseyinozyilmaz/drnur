@@ -66,7 +66,7 @@
     </div>
 
     <div id="contact" class="container">
-      <div class="row" style="background-color:#f5f5f5;">
+      <div class="row">
         <h1 class="centered">
           {{ site.thanks }}
         </h1>
@@ -126,3 +126,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+#contact .row {
+  background-color:#f5f5f5;
+  padding-bottom: 10px;
+}
+</style>
