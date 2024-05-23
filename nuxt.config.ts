@@ -17,8 +17,7 @@ export default defineNuxtConfig({
   },
   // // Removes client side hydration by removing all JavaScripts
   routeRules: {
-    '/': { prerender: true, experimentalNoScripts: true },
-    '/posts/**': { prerender: true, experimentalNoScripts: true }
+    '/': { prerender: true, experimentalNoScripts: true }
   },
   nitro: {
     preset: 'static'
