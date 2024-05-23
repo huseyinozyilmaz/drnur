@@ -41,7 +41,7 @@ export default defineAppConfig({
         id: '@',
         pinned: false,
         image: {
-          src: 'https://drnur.co.uk/resources/images/dr-nur-profile-photo.webp',
+          src: 'https://drnur.co.uk/resources/images/dr-nur-profile-photo-lg.webp',
           alt: 'Profile photo of Dr Nur Ozyilmaz'
         }
       }
