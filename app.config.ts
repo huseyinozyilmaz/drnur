@@ -1,7 +1,7 @@
 export default defineAppConfig({
   url: 'https://drnur.co.uk',
   title: 'Dr Nur Ozyilmaz',
-  description: "Dr Nur Ozyilmaz is an experienced, UK trained, integrative health consultant who has worked in some of the most renowned London hospitals, including Kings College Hospital, Great Ormond Street, and St Thomas’ Hospital.",
+  description: "Dr Nur Ozyilmaz is a former NHS Consultant, trained in the UK and with over twenty five years of experience in medicine.",
   blogTitle: 'ARTICLES',
   headline: "A former NHS Consultant with 25+ of experience in medicine with medical background at prestigious institutions in London such as Kings College, Great Ormond Street, and St Thomas' Hospital. Specialised in paediatrics and nephrology. Offering comprehensive, all-round care to her patients, by incorporating the most efficient methodologies from both conventional and integrative medicine.",
   logo: {
