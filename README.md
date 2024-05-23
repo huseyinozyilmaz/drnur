@@ -1,20 +1,47 @@
-# drnur
+# DRNUR.CO.UK
 
-## Build Setup
+Dr Nur's Personal Website
+
+## Setup
+
+Make sure to install the dependencies:
 
 ```bash
-# install dependencies
-$ npm install
+npm install
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Check the latest versions of the dependencies:
+```bash
+ncu
+```
+
+Update dependencies:
+```bash
+ncu -u
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+npm run dev
+
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+npm run generate
+
+```
+
+Locally preview production build:
+
+```bash
+npm run preview
+
+```
