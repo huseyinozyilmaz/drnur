@@ -31,12 +31,12 @@
           <ul class="text-sm">
             <li class="flex flex-col items-center gap-3 my-3">
               <Icon name="time" size="24"/>
-              <span>30 Minutes</span>
+              <span>45 Minutes</span>
             </li>
           </ul>
         </div>
         <div class="flex flex-row pt-4 border-t-[1px] items-center w-full h-12 px-10">
-          <div class="font-thin text-4xl flex-1 h-10">£350</div>
+          <div class="font-thin text-4xl flex-1 h-10">£450</div>
           <div>
             <a class="font-semibold text-sm tracking-tight" href="mailto:info@drnur.co.uk?subject=Follow-up%20Consultation%20Booking%20Request&body=Your%20Name%3A%20%0AContact%20Phone%20Number%3A%20%0A%0A">Book Now</a>
           </div>
