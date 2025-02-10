@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-[600px] m-auto">
     <div class="flex flex-col md:flex-row gap-8">
-      <div class="w-full flex flex-col bg-neutral-100 py-10 px-3 rounded-lg shadow">
+      <div class="w-full flex flex-col bg-neutral-100 py-10 px-3 rounded-lg shadow-sm">
         <div class="flex-1 pb-4">
           <div class="w-8 m-auto">
             <Icon name="user-plus" size="32" />
@@ -22,7 +22,7 @@
         </div>
       </div>
       
-      <div class="w-full flex flex-col bg-neutral-100 py-10 px-3 rounded-lg shadow">
+      <div class="w-full flex flex-col bg-neutral-100 py-10 px-3 rounded-lg shadow-sm">
         <div class="flex-1">
           <div class="w-8 m-auto">
             <Icon name="renew" size="32" />

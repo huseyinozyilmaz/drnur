@@ -1,15 +1,15 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from "@tailwindcss/vite";
+
 export default defineNuxtConfig({
   ssr: true,
   devtools: { enabled: true },
   telemetry: false,
   css: ['~/assets/css/main.css'],
 
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
   },
 
   // Removes client side hydration by removing JSON Payloads
